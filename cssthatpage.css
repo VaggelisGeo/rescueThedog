@@ -1,0 +1,262 @@
+﻿body {
+    background-image: linear-gradient(45deg, #4bb5cc, #9460ac, #f2e157);
+    z-index: -1;
+    background-attachment: fixed;
+}
+header {
+    background-image: url("https://t3.ftcdn.net/jpg/02/82/28/10/360_F_282281016_H1uPO6dYx5AsYLTHW5fRyDhSI2xnaYPh.jpg");
+    background-size: cover;
+    min-width: 30rem;
+    max-width: 93em;
+    height: 55rem;
+    position: relative;
+    left: 190px;
+    margin-bottom: 70px;
+    border: black solid 3px;
+    border-radius: 14px;
+}
+
+.headertext {
+    font-size: 2.2rem;
+    box-sizing: border-box;
+    width: 43%;
+    height: 40%;
+    background-color: rgba(18, 117, 7, 0.27);
+    color: rgb(255, 128, 0);
+    position: absolute;
+    right: 3rem;
+    top: 8rem;
+    padding-left: 0.8rem;
+    border: solid 1px rgba(18, 117, 7, 0.27);
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    min-height: 20rem;
+    max-height: 60rem;
+    flex-wrap: wrap;
+}
+.adopt {
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/08/10/istock-942616490.jpg");
+    background-size: cover;
+    border: black solid 4px;
+    height: 20rem;
+    flex-basis: 30rem;
+    margin-bottom: 7rem;
+    border-radius: 14px;
+    position: relative;
+    transition: border-color 1s;
+}
+.backtext {
+    background-color: rgba(1, 1, 1, 0.5);
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Gabriola;
+    font-size: 2.7rem;
+    color: white;
+    transition: background-color 1s;
+}
+.backtext h1{
+    position: absolute;
+    top: 1.5rem;
+    left: 9rem;
+}
+.underline {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    transition: opacity 1s;
+    top: 11.7rem;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.adopt:hover .underline{
+    opacity: 1;
+}
+.underline hr{
+    width: 1%;
+    border: 2px solid rgb(255, 128, 0);
+    transition: width 1s;
+}
+.adopt:hover .underline hr{
+    width: 45%;
+}
+.adopt:hover {
+    border-color: #D7A9E3FF;
+}
+    .adopt:hover .backtext {
+        background-color: rgba(1, 1, 1, 0.25);
+    }
+.rescue {
+    background-image: url("https://cdn2.psychologytoday.com/assets/styles/amp_metadata_content_image_min_696px_wide/public/2020-08/shutterstock_1731284125_0.jpg");
+    background-size: cover;
+    height: 20rem;
+    flex-basis: 30rem;
+    border: black solid 4px;
+    margin-bottom: 7rem;
+    border-radius: 14px;
+    position: relative;
+    z-index: 1;
+    transition: border-color 1s;
+}
+.subrescue {
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    padding-top: 4.3rem;
+    font-family: Candara;
+    transition: color 1s, background-color 1s;
+}
+    .rescue:hover {
+        border-color: #05BBAA;
+    }
+.subrescue:hover {
+    color: rgb(255, 128, 0);
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.contact {
+    background-image: url("https://www.coralspringsanimalhosp.com/wp-content/uploads/2016/07/20151016163202-dog-on-computer-email-marketing.jpeg");
+    background-size: cover;
+    box-sizing: border-box;
+    color: #ADEFD1FF;
+    font-size: 1.2rem;
+    height: 20rem;
+    flex-basis: 30rem;
+    border: black solid 4px;
+    margin-bottom: 7rem;
+    border-radius: 14px;
+    transition: border-color 1s, opacity 1s;
+    position: relative;
+}
+.contact h1{
+    position: absolute;
+    left: 3.4rem;
+    top: 3rem;
+}
+    .subcontact {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+.assistcontact {
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_960_720.png");
+    background-size: cover;
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 7.8rem;
+    left: 7rem;
+}
+main .subcontact{
+    opacity: 0;
+    transition-duration: 1s;
+}
+.subcontact:hover {
+    opacity: 1;
+}
+    main .contact:hover {
+        border-color: #ee740b;
+    }
+.discussion {
+    background-image: url("https://www.kpsol.com/wp-content/uploads/2017/09/discussion-featured.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    flex-basis: 30rem;
+    height: 20rem;
+    border: black solid 4px;
+    border-radius: 14px;
+    margin-bottom: 7rem;
+    position: relative;
+    transition: border-color 1s;
+}
+.discussion h1{
+    position: absolute;
+    left: 9rem;
+    top: 12.4rem;
+    font-size: 2.7rem;
+}
+.subdiscussion{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.firstimage {
+    background-image: url(pngphoto.png);
+    background-size: cover;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 3.4rem;
+    width: 35%;
+    height: 35%;
+}
+.secondimage {
+    background-image: url(red.png);
+    background-size: cover;
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    bottom: 2.2rem;
+    left: 1rem;
+}
+
+main .subdiscussion:hover {
+    opacity: 1;
+}
+main .discussion:hover {
+    border-color: #a0db40;
+}
+.learnMore {
+    background-image: url("https://www.valeur.gr/wp-content/uploads/2015/04/about-us-banner1.jpg");
+    background-size: cover;
+    flex-basis: 31rem;
+    height: 20rem;
+    border: black solid 4px;
+    border-radius: 14px;
+    transition: border-color 1s;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(237, 146, 20, 1);
+    transition-duration: 1.5s;
+}
+.text {
+    font-size: 4rem;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 6rem;
+    top: 6rem;
+    color: #0e9ce4;
+    opacity: 0;
+    transition: opacity 1.1s ease 0.3s;
+}
+.learnMore:hover .overlay{
+    height: 100%;
+}
+.learnMore:hover .text{
+    opacity: 1;
+}
+    .learnMore:hover {
+        border-color: #014127;
+    }
+/* tabindex at. */
