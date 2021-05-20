@@ -1,85 +1,47 @@
-﻿body {
+﻿body{
+    background-color: #e4e4e4;
     margin: 0;
-    background-image: linear-gradient(to right, #43cea2, #185a9d);
-    background-attachment: fixed;
 }
 .container{
+    position: relative;
+    top: 7rem;
+    background-color: #051356;
     width: 100%;
-    height: 100%;
+    height: 42rem;
     display: flex;
 }
-.text {
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 4%;
-    font-size: 1.7rem;
-}
-    .text h1 {
-        font-family: 'Comic Sans MS';
-    }
-.context {
-    background-color: rgba(67, 83, 160, 0.25);
-    width: 60%;
-    height: 34rem;
-    font-size: 2.2rem;
+
+.text{
     position: relative;
-    left: 21rem;
-    border: solid 1px rgba(67, 83, 160, 0.25);
-    border-radius: 10px;
-    overflow: scroll;
-    margin-bottom: 7rem;
+    top: 3%;
+    left: 21%;
+    width: 30rem;
+    height: 20rem;
+    color: white;
+    margin-right: 39rem;
 }
-.tag{
-    font-size: 3rem;
+
+.icon{
     position: relative;
-    left: 3rem;
-    width: 40%;
+    background-repeat: no-repeat;
+    top: 40%;
+    background-image: url(img/team.jpg);
+    width: 35rem;
+    height: 27rem;
+    border-radius: 50%;
 }
-.list {
+
+.title{
+    font-family: Gabriola;
+    font-size: 3.6rem;
+}
+
+context.{
+
+}
+.distance{
+    margin-bottom: 0.2rem;
+}
+.list{
     list-style: none;
-    display: inline-block;
 }
-    .list li{
-        display: inline-block;
-        margin-right: 4rem;
-    }
-    .list li img {
-        width: 7rem;
-        height: 7rem;
-    }
-    .facebook{
-        transition: background-color 1s
-    }
-    .facebook:hover{
-        background-color: #185a9d;
-    }
-    .instagram{
-        transition-duration: 1s;
-    }
-    .instagram:hover {
-        background-color: #ba0e0e;
-    }
-    .woke{
-        transition: 1s;
-    }
-    .woke:hover{
-        background-color: #5683ed;
-    }
-    .discord{
-        transition: 1s;
-    }
-    .discord:hover{
-        background-color: #40c2d9;
-    }
-    .findus{
-        text-align: center;
-        position: relative;
-        left: 20rem;
-        background-image: linear-gradient(to bottom, #2c2a2a, #b0acac);
-        width: 75rem;
-        height: 20rem;
-        margin-bottom: 10rem;
-    }
-    .findus h2{
-        color: #b1a4a4;
-    }
