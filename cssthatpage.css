@@ -194,7 +194,7 @@ main .subcontact{
     transition: opacity 1s;
 }
 .firstimage {
-    background-image: url(pngphoto.png);
+    background-image: url(img/pngphoto.png);
     background-size: cover;
     position: absolute;
     right: 0.4rem;
@@ -203,7 +203,7 @@ main .subcontact{
     height: 35%;
 }
 .secondimage {
-    background-image: url(red.png);
+    background-image: url(img/red.png);
     background-size: cover;
     position: absolute;
     width: 30%;
