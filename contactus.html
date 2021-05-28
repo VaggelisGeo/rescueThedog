@@ -9,13 +9,13 @@
 <body>
 <div class="layer">
 <form method="post">
-    <h1>Contact with us!</h1>
-<input class="inputs" placeholder="Enter Name" required>
-<input class="inputs" placeholder="Enter Last Name" required> <br>
-<input class="inputs" placeholder="Enter Valid Email Adress" required>
+    <h1 class="header">Contact with us!</h1>
+<input class="inputs" placeholder="Enter Name" maxlength="20" pattern="[a-z,A-Z] {2,20}" required>
+<input class="inputs" placeholder="Enter Last Name" required maxlength="20"> <br>
+<input class="inputs" placeholder="Enter Valid Email Adress" type="email" required>
 <input class="inputs" placeholder="mm/dd/yy" required pattern="date"> <br>
-<input class="message" placeholder="Your message" type="text" required maxlength="200"> <br>
-<input  type="submit" value="Submit">
+<textarea class="message" placeholder="Your message" type="text" required maxlength="600"></textarea> <br>
+<input class="send"  type="submit" value="Send!">
 
     
 </form>
