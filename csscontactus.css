@@ -11,6 +11,7 @@ body{
     background-color: rgba(0, 1, 1, 0.55);
     width: 100%;
     min-height: 57rem;
+    position: relative;
 }
 .header{
     text-align: center;
@@ -25,6 +26,7 @@ body{
     width: 42rem;
     height:10rem;
     max-height: 17rem;
+    min-height: 7rem;
     margin-bottom: 2rem;
     padding-top:0.3rem;
     background-color: rgba(0, 0, 0, 0.308);
@@ -70,6 +72,7 @@ body{
 .send:hover{
     border-color: rgb(31, 31, 192);
 }
-input:invalid{
-    ;
+
+input:valid{
+    border-bottom: green 3px solid;
 }
