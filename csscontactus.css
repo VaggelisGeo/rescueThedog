@@ -71,8 +71,5 @@ body{
 }
 .send:hover{
     border-color: rgb(31, 31, 192);
-}
-
-input:valid{
-    border-bottom: green 3px solid;
+    cursor: pointer;
 }
