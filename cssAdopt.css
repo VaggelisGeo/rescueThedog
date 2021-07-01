@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+.backgroundpic{
+    background-image: url("https://wallpapermemory.com/uploads/435/dog-background-laptop-308152.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+}

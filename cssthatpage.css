@@ -129,7 +129,6 @@ main{
     background-image: url("https://www.coralspringsanimalhosp.com/wp-content/uploads/2016/07/20151016163202-dog-on-computer-email-marketing.jpeg");
     background-size: cover;
     box-sizing: border-box;
-    color: #ADEFD1FF;
     font-size: 1.2rem;
     height: 20rem;
     flex-basis: 30rem;
@@ -143,6 +142,7 @@ main{
     position: absolute;
     left: 3.4rem;
     top: 3rem;
+    color: #ADEFD1FF;
 }
     .subcontact {
         position: absolute;
