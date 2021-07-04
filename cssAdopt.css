@@ -12,12 +12,11 @@ body{
     max-height: 60%;
     background-color: rgba(0, 0, 0, 0.696);
     text-align: center;
-    margin-left: 3rem;
-    margin-top: 3rem;
-    margin-right: 14rem;
+    margin-left: 2.4rem;
+    margin-top: 4.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    display: inline-block;
+    border-radius: 15%;
 }
 .title{
     color: rgb(14, 144, 204);
@@ -34,9 +33,12 @@ body{
     width: 100%;
 }
 .form{
-    display: inline-block;
-    width: 30%;
-    height: 67%;
-    color: white;
-
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 28%;
+    height: 47%;
+}
+.firstbottom{
+    margin-bottom: 4rem;
 }
